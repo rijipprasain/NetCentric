@@ -1,0 +1,13 @@
+﻿@model CSITDemo.Models.TeacherModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@*tag helpers*@
+<form>
+    <label asp-for="name"></label>
+    <input asp-for="name"/>
+    <br/>
+    <label asp-for="subject"></label>
+    <input asp-for="subject"/>
+
+    <input type="submit"/>
+</form>
